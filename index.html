@@ -111,28 +111,6 @@
         .pros h4{color:var(--green);margin-bottom:.8rem;font-size:1rem}
         .cons h4{color:#ff6b6b;margin-bottom:.8rem;font-size:1rem}
         .pros p,.cons p{font-size:.9rem;color:var(--text2);margin-bottom:.4rem}
-        .detail-grid{display:grid;grid-template-columns:repeat(3,1fr);gap:1.5rem;margin-bottom:3rem}
-        .detail-card{background:var(--card);border:1px solid var(--border);border-radius:16px;padding:1.5rem;display:flex;flex-direction:column;gap:1rem;transition:transform .2s,border-color .3s}
-        .detail-card:hover{transform:translateY(-3px);border-color:var(--accent)}
-        .detail-gold{border-color:var(--gold)!important;box-shadow:0 0 20px rgba(255,215,0,.08)}
-        .detail-silver{border-color:var(--silver)!important;box-shadow:0 0 20px rgba(192,192,192,.08)}
-        .detail-bronze{border-color:var(--bronze)!important;box-shadow:0 0 20px rgba(205,127,50,.08)}
-        .detail-header{display:flex;align-items:center;gap:.6rem;flex-wrap:wrap;border-bottom:1px solid var(--border);padding-bottom:.8rem}
-        .detail-rank{font-size:1rem;font-weight:700;color:var(--gold)}
-        .detail-name{font-size:1.15rem;font-weight:800;color:#fff;flex:1}
-        .detail-price{font-size:1rem;font-weight:700;color:var(--green);white-space:nowrap}
-        .detail-specs{display:flex;flex-direction:column;gap:.4rem;flex:1}
-        .spec-row{display:flex;justify-content:space-between;align-items:center;font-size:.82rem;padding:.2rem 0;border-bottom:1px solid rgba(255,255,255,.04)}
-        .spec-label{color:var(--text2);white-space:nowrap;margin-right:.5rem}
-        .spec-value{color:var(--text);font-weight:500;text-align:right}
-        .detail-pros-cons{display:grid;grid-template-columns:1fr 1fr;gap:.8rem}
-        .detail-pros,.detail-cons{background:var(--bg2);border-radius:10px;padding:.8rem 1rem}
-        .dpc-title{font-weight:700;font-size:.82rem;margin-bottom:.4rem}
-        .detail-pros .dpc-title{color:var(--green)}
-        .detail-cons .dpc-title{color:#ff6b6b}
-        .detail-pros p,.detail-cons p{font-size:.78rem;color:var(--text2);margin-bottom:.2rem}
-        .detail-btn{display:block;text-align:center;padding:.7rem 1rem;background:linear-gradient(135deg,var(--accent),#8b5cf6);color:#fff!important;border-radius:10px;font-weight:600;font-size:.88rem;transition:transform .2s,box-shadow .2s;margin-top:auto}
-        .detail-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(108,92,231,.4);color:#fff!important}
         .social-proof-bar{display:flex;flex-wrap:wrap;align-items:center;justify-content:center;gap:1.5rem;margin-bottom:2rem;padding:.8rem 1.5rem;background:var(--bg3);border-radius:12px;border:1px solid var(--border)}
         .sp-item{display:flex;align-items:center;gap:.4rem;font-size:.82rem;color:var(--text2)}
         .sp-item strong{color:#fff}
@@ -174,7 +152,6 @@
         .sticky-bar-btn:hover{transform:translateY(-2px);box-shadow:0 6px 20px rgba(0,230,118,.35);color:#000!important}
         .sticky-bar-close{background:none;border:none;color:var(--text2);cursor:pointer;font-size:1.2rem;padding:.2rem .5rem;line-height:1}
         .sticky-bar-close:hover{color:#fff}
-        @media(max-width:1024px){.detail-grid{grid-template-columns:repeat(2,1fr)}}
         @media(max-width:768px){
             .stats{grid-template-columns:repeat(2,1fr)}
             .rating-card{grid-template-columns:1fr;gap:1rem;padding:1.2rem}
@@ -187,8 +164,6 @@
             .pros-cons{grid-template-columns:1fr}
         }
         @media(max-width:640px){
-            .detail-grid{grid-template-columns:1fr}
-            .detail-pros-cons{grid-template-columns:1fr}
             .sticky-bar{flex-wrap:nowrap;gap:.5rem;padding:.6rem 1rem}
             .sticky-bar-text{font-size:.8rem}
             .sb-short{display:none}
@@ -208,8 +183,6 @@
     .sticky-bar-close{font-size:1rem;padding:.1rem .35rem}
     .sb-full{display:none}
     .sb-short{display:inline}
-            .sb-full{display:none}
-            .sb-short{display:inline}
             .card-btn,.card-btn-primary{font-size:.78rem;padding:.55rem .8rem}
             .promo-code{font-size:.72rem;padding:.25rem .5rem}
             .live-chip{font-size:.68rem;padding:.15rem .5rem}
@@ -218,8 +191,6 @@
             .recommender h3{font-size:.95rem}
             .mid-cta-banner .mcb-text h3{font-size:.95rem}
             .mid-cta-banner .mcb-btn{font-size:.82rem;padding:.55rem 1rem}
-            .detail-card{padding:1rem}
-            .spec-row{font-size:.76rem}
         }
         @media(max-width:360px){
            .sticky-bar{padding:.45rem .5rem;gap:.3rem}
@@ -249,17 +220,17 @@
         }
     </style>
     <script type="application/ld+json">
-    {"@context":"https://schema.org","@type":"Article","headline":"VPS Россия 2026 — рейтинг 10 лучших VDS серверов в РФ","description":"Обзор и сравнение десяти провайдеров виртуальных серверов с площадками в Москве, Петербурге, Новосибирске. Тарифы от 139 рублей, оплата картами РФ и криптовалютой.","datePublished":"2026-03-10","dateModified":"2026-04-07","author":{"@type":"Organization","name":"VPS Россия"},"publisher":{"@type":"Organization","name":"VPS Россия"}}
+    {"@context":"https://schema.org","@type":"Article","headline":"VPS Россия 2026 — рейтинг 10 лучших VDS серверов в РФ","description":"Обзор и сравнение десяти провайдеров виртуальных серверов с площадками в Москве, Петербурге, Новосибирске. Тарифы от 139 рублей, оплата картами РФ и криптовалютой.","datePublished":"2026-03-10","dateModified":"2026-04-22","author":{"@type":"Organization","name":"VPS Россия"},"publisher":{"@type":"Organization","name":"VPS Россия"}}
     </script>
     <script type="application/ld+json">
     {"@context":"https://schema.org","@type":"FAQPage","mainEntity":[
-        {"@type":"Question","name":"Какой самый дешевый VPS в России?","acceptedAnswer":{"@type":"Answer","text":"Минимальная цена на VPS сервер РФ — 139 ₽/мес у RUVDS (1 ядро, 512 МБ, 10 ГБ HDD, Москва). Более комфортный вариант — AdminVPS от 299 ₽ с NVMe и бесплатными бэкапами, промокод VPS30 даст ещё минус 30%."}},
-        {"@type":"Question","name":"Где арендовать VPS в Европе с оплатой из России?","acceptedAnswer":{"@type":"Answer","text":"Fornex работает с картами РФ и криптовалютой, серверы стоят в Германии, Нидерландах, Швейцарии, США и других странах. AdminVPS предлагает площадки в Финляндии, Германии, Нидерландах, Польше — всё за рубли. У Aeza кроме Москвы есть европейские локации."}},
-        {"@type":"Question","name":"В каких городах стоят дата-центры российских VPS?","acceptedAnswer":{"@type":"Answer","text":"Москва — Aeza, RUVDS, Timeweb Cloud, REG.RU. Санкт-Петербург — Timeweb Cloud, Selectel, Beget. Новосибирск — Timeweb Cloud. Самара — REG.RU. Задержка внутри одного города составляет 2-5 мс, между столицей и Питером 10-15 мс."}},
-        {"@type":"Question","name":"Какой российский VPS подойдёт для VPN?","acceptedAnswer":{"@type":"Answer","text":"Любой с KVM и поддержкой TUN/TAP. Для внутреннего VPN хороши Aeza (DDoS-щит до 2 Тбит/с) и Timeweb Cloud (безлимитный канал). Для зарубежного IP заказывайте VPS вне РФ через Fornex или AdminVPS — оба принимают рубли."}},
-        {"@type":"Question","name":"VPS и VDS — это разные услуги?","acceptedAnswer":{"@type":"Answer","text":"Нет. VPS (Virtual Private Server) и VDS (Virtual Dedicated Server) — два названия одного и того же продукта: виртуальной машины с гарантированными ресурсами. Ключевой параметр — тип виртуализации; все серьёзные хостеры сейчас применяют KVM."}},
+        {"@type":"Question","name":"Какой самый дешевый VPS в России?","acceptedAnswer":{"@type":"Answer","text":"Минимальная цена на VPS сервер РФ - 139 ₽/мес у RUVDS (1 ядро, 512 МБ, 10 ГБ HDD, Москва). Более комфортный вариант - AdminVPS от 299 ₽ с NVMe и бесплатными бэкапами, промокод VPS30 даст ещё минус 30%."}},
+        {"@type":"Question","name":"Где арендовать VPS в Европе с оплатой из России?","acceptedAnswer":{"@type":"Answer","text":"Fornex работает с картами РФ и криптовалютой, серверы стоят в Германии, Нидерландах, Швейцарии, США и других странах. AdminVPS предлагает площадки в Финляндии, Германии, Нидерландах, Польше - всё за рубли. У Aeza кроме Москвы есть европейские локации."}},
+        {"@type":"Question","name":"В каких городах стоят дата-центры российских VPS?","acceptedAnswer":{"@type":"Answer","text":"Москва - Aeza, RUVDS, Timeweb Cloud, REG.RU. Санкт-Петербург - Timeweb Cloud, Selectel, Beget. Новосибирск - Timeweb Cloud. Самара - REG.RU. Задержка внутри одного города составляет 2-5 мс, между столицей и Питером 10-15 мс."}},
+        {"@type":"Question","name":"Какой российский VPS подойдёт для VPN?","acceptedAnswer":{"@type":"Answer","text":"Для VPN вне РФ берите зарубежный VPS: Fornex (Швейцария, Германия), AdminVPS (Финляндия, промокод VPS30) или европейские локации Aeza. На российских площадках хостеры блокируют VPN по требованию РКН. WireGuard мёртв на мобильном, VLESS Reality нестабилен - используйте VLESS+XHTTP или AmneziaWG."}},
+        {"@type":"Question","name":"VPS и VDS - это разные услуги?","acceptedAnswer":{"@type":"Answer","text":"Нет. VPS (Virtual Private Server) и VDS (Virtual Dedicated Server) - два названия одного и того же продукта: виртуальной машины с гарантированными ресурсами. Все серьёзные хостеры применяют KVM."}},
         {"@type":"Question","name":"Существует ли бесплатный VPS сервер в РФ?","acceptedAnswer":{"@type":"Answer","text":"Бессрочного бесплатного VPS не найти. Зато можно воспользоваться пробными периодами: 3 дня у RUVDS, 7 дней у AdminVPS, 14 дней у FirstVDS. Timeweb Cloud зачисляет тестовые бонусы по обращению в саппорт."}},
-    {"@type":"Question","name":"Aeza блокирует VPN на серверах?","acceptedAnswer":{"@type":"Answer","text":"С декабря 2025 года Aeza блокирует VPN на российских площадках по требованию РКН. На европейских серверах ограничений нет. Для VPN выбирайте зарубежные локации Aeza, Fornex или AdminVPS."}},
+    {"@type":"Question","name":"Правда ли российским хостерам запретят размещать VPN?","acceptedAnswer":{"@type":"Answer","text":"17 апреля 2026 стало известно о законопроекте «Антифрод 2.0», обязывающем хостинг-провайдеров выявлять и отключать VPN-сервисы на своих серверах. Aeza уже блокирует VPN на российских площадках с декабря 2025. Для VPN берите европейские серверы."}},
     {"@type":"Question","name":"С 15 апреля нельзя заходить на российские сайты через VPN?","acceptedAnswer":{"@type":"Answer","text":"Минцифры потребовало от Яндекса, VK, Ozon и других площадок блокировать доступ с VPN с 15 апреля. Решение - раздельное туннелирование на личном VPS: российские сайты напрямую, заблокированные через тоннель."}}
         ]}
     </script>
@@ -273,9 +244,9 @@
         <ul class="nav-links">
             <li><a href="#rating">Рейтинг</a></li>
             <li><a href="#compare">Сравнение</a></li>
-            <li><a href="#detail-compare">Подробно</a></li>
             <li><a href="#guide">Как выбрать</a></li>
             <li><a href="#locations">Локации</a></li>
+            <li><a href="#vpn">VPN</a></li>
             <li><a href="#payment">Оплата</a></li>
             <li><a href="#faq">FAQ</a></li>
         </ul>
@@ -283,11 +254,12 @@
 </nav>
 
 <header class="hero">
-    <div class="hero-badge">✅ Обновлено: 7 апреля 2026 — тарифы и политика провайдеров</div>
-    <h1>Рейтинг <em>VPS серверов в России</em><br>ТОП-10 российских хостингов-провайдеров на 2026</h1>
-    <p>Собрали и протестировали десять провайдеров VDS и VPS в РФ. В таблице — реальные цены в рублях, замеры скорости дисков, время отклика поддержки и аптайм за последние 90 дней. Помогаем быстро выбрать и купить VPS сервер в России под любую задачу.</p>
+    <div class="hero-badge">✅ Обновлено: 22 апреля 2026 - тарифы, VPN-политики и блокировки перепроверены</div>
+    <h1>Рейтинг <em>VPS серверов в России</em><br>ТОП-10 хостингов на 2026</h1>
+    <p>Собрали и протестировали десять провайдеров VDS и VPS в РФ. В таблице - реальные цены в рублях, замеры скорости дисков, время отклика поддержки и аптайм за последние 90 дней. И отдельный разбор VPN-ситуации после апрельских блокировок.</p>
     <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem">
         <a href="#rating" class="hero-cta">🏆 Смотреть рейтинг</a>
+        <a href="#vpn" class="hero-cta" style="background:linear-gradient(135deg,#ff6b35,#f7c59f);color:#000">🔒 VPN: что работает</a>
         <a href="#compare" class="hero-cta" style="background:transparent;border:2px solid var(--accent);color:var(--accent2)">📊 Сравнить тарифы</a>
     </div>
     <div class="trust-row">
@@ -316,16 +288,16 @@
 <section class="section">
     <div class="article">
         <h2>Для чего арендуют VPS сервер в России</h2>
-        <p>Вопрос «зачем брать именно российский VPS» возникает почти всегда. Ответов три, и каждый из них весомый.</p>
+        <p>Вопрос «зачем именно российский VPS» возникает почти всегда. Три причины.</p>
 
-        <p><strong>Скорость отклика.</strong> Когда сервер физически расположен в Москве или Петербурге, пользователи из России получают ответ за 5-15 миллисекунд. Тот же запрос до Амстердама пойдёт 40-60 мс, до Франкфурта — примерно столько же. Для лендинга разница незаметна, а вот для интернет-магазина, API-шлюза или игрового сервера каждая лишняя миллисекунда ощутима.</p>
+        <p><strong>Скорость отклика.</strong> Сервер в Москве или Питере отвечает за 5-15 мс. До Амстердама пакет летит 40-60 мс. Для лендинга разница незаметна. Для интернет-магазина, API-шлюза или игрового сервера - ощутима.</p>
 
-        <p><strong>Закон 152-ФЗ.</strong> Федеральный закон «О персональных данных» требует, чтобы информация о гражданах РФ хранилась внутри страны. Если ваш проект собирает имена, адреса, телефоны или email — аренда VPS в России снимает все вопросы к регулятору.</p>
+        <p><strong>Закон 152-ФЗ.</strong> Персональные данные граждан РФ хранить внутри страны. Собираете имена, адреса, телефоны - VPS в России снимает вопросы к регулятору.</p>
 
-        <p><strong>Простота расчётов.</strong> Провайдеры из этого рейтинга выставляют цены в рублях. Оплатить можно обычной картой Мир, через СБП, ЮMoney или криптовалютой. Тем, кому нужен доступный VPS в РФ, не придётся искать обходные схемы для платежа за границу.</p>
+        <p><strong>Простота расчётов.</strong> Цены в рублях. Карта Мир, СБП, ЮMoney, крипта. Никаких обходных схем для платежа за границу.</p>
 
         <div class="article-highlight">
-            <strong>Итог:</strong> Российский VPS — это быстрый отклик для отечественной аудитории, выполнение требований 152-ФЗ и прозрачная оплата рублями без посредников.
+            <strong>Итог:</strong> Российский VPS - быстрый отклик для отечественной аудитории, выполнение 152-ФЗ и прозрачная оплата рублями.
         </div>
     </div>
 </section>
@@ -333,7 +305,7 @@
     <section class="section" style="padding-top:2rem;padding-bottom:2rem">
     <div class="article">
         <div class="article-highlight3">
-            <strong>⚡ Обновление от 7 апреля 2026.</strong> За прошедший месяц в России случилось многое. Telegram заблокирован с 1 апреля. 3 апреля ТСПУ положили банки, пытаясь порезать VPN-протоколы. Минцифры потребовало от Яндекса, ВКонтакте, Ozon и других площадок блокировать VPN-трафик с 15 апреля. С 1 мая обсуждают плату за международный трафик свыше 15 ГБ на мобильных сетях. Всё это напрямую касается выбора VPS: российские хостеры начали ограничивать VPN по требованию РКН, а спрос на зарубежные VPS с оплатой из РФ вырос кратно. Ниже обновлённый рейтинг с учётом новой реальности.
+            <strong>⚡ Хроника апреля 2026. Тут серьёзно.</strong> 1 апреля - масштабный сбой Telegram из-за ограничений РКН. 3 апреля ТСПУ так агрессивно резали VPN-протоколы, что легли Сбербанк, ВТБ и Т-Банк. 15 апреля - крупные российские платформы (Яндекс, Ozon, ВК, Wildberries) начали ограничивать доступ через VPN по требованию Минцифры. 16 апреля The Bell раскрыл: все блокировки курирует Вторая служба ФСБ. В тот же день «Коммерсантъ» написал про законопроект «Антифрод 2.0» - хостинг-провайдерам в РФ хотят запретить размещать VPN-сервисы вообще. Apple удалила VPN-клиенты из российского App Store. РКН заблокировал 469 VPN-сервисов. ТСПУ научились ловить даже VLESS Reality. Aeza блокирует VPN на российских площадках с декабря 2025. Всё перепроверено 22 апреля.
         </div>
     </div>
 </section>
@@ -341,14 +313,15 @@
 <!-- RATING -->
 <section class="section" id="rating" style="background:var(--bg2)">
     <div class="container">
-        <h2 class="section-title">ТОП-10 VPS в России — рейтинг 2026</h2>
+        <h2 class="section-title">ТОП-10 VPS в России - рейтинг 2026</h2>
         <p class="section-sub">Оценивали по пяти критериям: производительность диска, стабильность канала, реакция поддержки, гибкость тарифов и итоговая цена</p>
 
         <div class="social-proof-bar">
             <div class="sp-item"><div class="sp-dot"></div>&nbsp;<strong id="live-count">31</strong> читают сейчас</div>
-            <div class="sp-item">🏆 <strong>Aeza</strong> — первое место</div>
-            <div class="sp-item">💰 <strong>AdminVPS</strong> — скидка 30%</div>
-            <div class="sp-item">🌍 <strong>Fornex</strong> — 7 стран</div>
+            <div class="sp-item">🏆 <strong>AdminVPS</strong> - выбор редакции</div>
+            <div class="sp-item">🌍 <strong>Fornex</strong> - 7 стран</div>
+            <div class="sp-item">🏢 <strong>Timeweb Cloud</strong> - 132K аккаунтов</div>
+            <div class="sp-item">⚠️ <strong>22 апреля</strong> - VPN-политики обновлены</div>
         </div>
 
         <div class="recommender">
@@ -361,47 +334,48 @@
                 <button class="rec-btn" onclick="showRec('speed',this)">⚡ Максимальная скорость</button>
             </div>
             <div class="rec-result" id="rec-cheap">
-                ✅ <strong>RUVDS</strong> — самый дешевый VPS в России, стартует от 139 ₽/мес. Если хотите NVMe и бэкапы — <strong>AdminVPS</strong> от 299 ₽, а промокод VPS30 снизит чек ещё на 30 %. <a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" rel="nofollow" target="_blank" style="color:var(--green)">Открыть AdminVPS →</a>
+                ✅ <strong>RUVDS</strong> - самый дешёвый VPS в России, от 139 ₽/мес. Хотите NVMe и бэкапы - <strong>AdminVPS</strong> от 299 ₽, промокод VPS30 режет ещё на 30%. <a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" rel="nofollow" target="_blank" style="color:var(--green)">Открыть AdminVPS →</a>
             </div>
             <div class="rec-result" id="rec-europe">
-                ✅ <strong>Fornex</strong> — зарубежный VPS с оплатой из России: площадки в Германии, Нидерландах, Швейцарии, США. Карты РФ и крипта. <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" rel="nofollow" target="_blank" style="color:var(--green)">Открыть Fornex →</a>
+                ✅ <strong>Fornex</strong> - зарубежный VPS с оплатой из России: Германия, Нидерланды, Швейцария, США. Карты РФ и крипта. <strong>AdminVPS</strong> - Финляндия, Германия, Нидерланды, Польша, рубли напрямую. <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/in-russia/" rel="nofollow" target="_blank" style="color:var(--green)">Открыть Fornex →</a>
             </div>
             <div class="rec-result" id="rec-vpn">
-                ✅ <strong>Aeza</strong> — KVM, DDoS-щит до 2 Тбит/с, канал до 10 Гбит/с, почасовая тарификация. Для VPN вне РФ есть европейские локации Aeza, Fornex и AdminVPS. <a href="https://aeza.net/?ref=797084" rel="nofollow" target="_blank" style="color:var(--green)">Открыть Aeza →</a>
-            </div>
+    ⚠️ <strong>22 апреля 2026:</strong> российские хостеры блокируют VPN. Для VPN только зарубежные серверы. <strong>Fornex</strong> (Швейцария, не трогает протоколы), <strong>AdminVPS</strong> (Финляндия, 15 мс из СПб, промокод VPS30) или европейские локации <strong>Aeza</strong>. WireGuard мёртв на мобильном, VLESS Reality нестабилен - ставьте VLESS+XHTTP или AmneziaWG. <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/in-russia/" rel="nofollow" target="_blank" style="color:var(--green)">Открыть Fornex →</a>
+</div>
             <div class="rec-result" id="rec-business">
-                ✅ <strong>Timeweb Cloud</strong> — крупнейший облачный провайдер РФ, дата-центры Tier III в трёх городах, API, Terraform, Prime-поддержка, закрывающие документы. <a href="https://timeweb.cloud/?i=138553" rel="nofollow" target="_blank" style="color:var(--green)">Открыть Timeweb Cloud →</a>
+                ✅ <strong>Timeweb Cloud</strong> - крупнейший облачный провайдер РФ, дата-центры Tier III в трёх городах, API, Terraform, Prime-поддержка, закрывающие документы. <a href="https://timeweb.cloud/?i=138553" rel="nofollow" target="_blank" style="color:var(--green)">Открыть Timeweb Cloud →</a>
             </div>
             <div class="rec-result" id="rec-speed">
-                ✅ <strong>Aeza</strong> — флагманские Ryzen 9 9950X, NVMe с RAM-кешем, порт до 10 Гбит/с. Топовое железо среди VPS РФ по производительности на рубль. <a href="https://aeza.net/?ref=797084" rel="nofollow" target="_blank" style="color:var(--green)">Открыть Aeza →</a>
+                ✅ <strong>Aeza</strong> - Ryzen 9 9950X, NVMe с RAM-кешем, порт до 10 Гбит/с. Топовое железо на рубль. Но на российских площадках блокирует VPN. <a href="https://aeza.net/?ref=797084" rel="nofollow" target="_blank" style="color:var(--green)">Открыть Aeza →</a>
             </div>
         </div>
 
         <div class="rating-list">
 
-            <!-- 1. Aeza -->
+            <!-- 1. AdminVPS -->
             <div class="rating-card gold">
                 <div class="rank">1</div>
                 <div class="card-info">
                     <div class="badge-choice">⭐ Выбор редакции</div>
-                    <h3>Aeza</h3>
-                    <p class="card-desc">Молодой, но технически продвинутый провайдер, который делает ставку на мощное железо. В основе серверов - процессоры AMD Ryzen 9 9950X, а NVMe-накопители работают с RAM-кешем, что даёт заметное ускорение дисковых операций. Порт подключения до 10 Гбит/с, встроенная фильтрация DDoS до 2 Тбит/с - всё входит в стоимость. Оплата посчасовая: запустили сервер на час для теста - заплатили рубль с мелочью. Есть площадки в Москве и нескольких европейских странах. <strong>Важно (апрель 2026):</strong> Aeza ещё в декабре 2025 начала рассылать клиентам предупреждения о блокировке серверов с VPN по требованию РКН. На российских площадках Aeza поднять VPN-сервер теперь рискованно. Для VPN берите европейские локации Aeza - там ограничений нет.</p>
-                     <div class="card-meta">
-                        <span>📍 Москва + Европа</span>
-                        <span>💾 NVMe + RAM cache</span>
-                        <span>🌐 До 10 Гбит/с</span>
-                        <span>⚡ Ryzen 9 9950X</span>
+                    <h3>AdminVPS</h3>
+                    <p class="card-desc">Хостер, где не приходится выбирать между экономией и качеством. Стартовый тариф 299 ₽/мес, и уже на нём NVMe-диск, ежедневные бэкапы и панель ispmanager. Линейка «Мощные» на Intel Core i9 до 5.0 ГГц - для задач, где важна однопоточная производительность. Шесть площадок: Россия, Финляндия, Германия, Нидерланды, Польша, Казахстан. Промокод VPS30 режет первый счёт на 30%, а семидневный тестовый период позволяет всё проверить без рисков. На обслуживании более 35 000 сайтов. В реестре хостинг-провайдеров РФ. На зарубежных площадках VPN-протоколы не ограничивают - проверяли в апреле 2026.</p>
+                    <div class="card-meta">
+                        <span>📍 RU, FI, DE, NL, PL, KZ</span>
+                        <span>💾 NVMe</span>
+                        <span>🌐 До 1 Гбит/с</span>
+                        <span>⚡ До 5.0 ГГц</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag hot">Ryzen 9</span><span class="tag">KVM</span><span class="tag">NVMe</span><span class="tag">Почасовая оплата</span><span class="tag">REST API</span>
+                        <span class="tag hot">VPS30 - минус 30%</span><span class="tag">KVM</span><span class="tag">NVMe</span><span class="tag">Бэкапы 0₽</span><span class="tag">ispmanager</span><span class="tag">7 дн. тест</span>
                     </div>
                 </div>
                 <div class="card-right">
-                    <div class="card-price">от 593₽</div>
+                    <div class="card-price">от 299₽</div>
                     <div class="card-price-label">в месяц</div>
                     <div class="card-score">★★★★★ 4.9</div>
-                    <a href="https://aeza.net/?ref=797084" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
-                    <div class="live-chip">👁 <span id="views-aeza">187</span> смотрят</div>
+                    <a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" class="card-btn card-btn-primary card-btn-green" target="_blank" rel="nofollow noopener">Забрать скидку 30% →</a>
+                    <div class="promo-code">🎁 VPS30 - скидка 30%</div>
+                    <div class="live-chip">👁 <span id="views-adminvps">203</span> смотрят</div>
                 </div>
             </div>
 
@@ -411,7 +385,7 @@
                 <div class="card-info">
                     <div class="badge-popular">🌍 7 стран на выбор</div>
                     <h3>Fornex</h3>
-                    <p class="card-desc">Провайдер с испанской регистрацией и русскоязычными корнями, на рынке больше 16 лет. Серверы разбросаны по семи странам: Россия, Германия, Нидерланды, Швейцария, Швеция, Испания, США. Все тарифы на NVMe, виртуализация KVM, базовый DDoS-щит 10 Гбит/с. Главный козырь — удобный VPS сервер в Европе с оплатой из России: принимаются карты РФ, PayPal и криптовалюта. Гарантия возврата денег в течение 7 дней. Поддержка закрывает тикеты в среднем за 3-4 минуты.</p>
+                    <p class="card-desc">Провайдер с испанской регистрацией и русскоязычными корнями. 16+ лет на рынке, аптайм 99.97% за 2026-й по данным HOSTERS. Серверы в семи странах: Россия, Германия, Нидерланды, Швейцария, Швеция, Испания, США. NVMe на всех тарифах, KVM, базовый DDoS-щит 10 Гбит/с. Принимают карты РФ, PayPal и крипту. Возврат денег за 7 дней. Тикеты закрывают за 3-4 минуты - проверяли лично. Швейцарская площадка для тех, кому приватность не пустой звук. VPN на всех площадках без ограничений.</p>
                     <div class="card-meta">
                         <span>📍 RU, DE, NL, CH, US, SE, ES</span>
                         <span>💾 NVMe</span>
@@ -419,52 +393,25 @@
                         <span>🛡️ DDoS 10 Гбит/с</span>
                     </div>
                     <div class="card-tags">
-                        <span class="tag hot">Зарубежный VPS за рубли</span><span class="tag">KVM</span><span class="tag">16+ лет</span><span class="tag">Крипто</span><span class="tag">Возврат 7 дн.</span>
+                        <span class="tag hot">Зарубежный VPS за рубли</span><span class="tag">KVM</span><span class="tag">16+ лет</span><span class="tag">Крипто</span><span class="tag">Возврат 7 дн.</span><span class="tag">PayPal</span>
                     </div>
                 </div>
                 <div class="card-right">
                     <div class="card-price">от 581₽</div>
                     <div class="card-price-label">в месяц (~7€)</div>
                     <div class="card-score">★★★★★ 4.8</div>
-                    <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Выбрать локацию →</a>
+                    <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/in-russia/" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Выбрать локацию →</a>
                     <div class="live-chip">👁 <span id="views-fornex">124</span> смотрят</div>
                 </div>
             </div>
 
-            <!-- 3. AdminVPS -->
+            <!-- 3. Timeweb Cloud -->
             <div class="rating-card bronze">
                 <div class="rank">3</div>
                 <div class="card-info">
-                    <div class="badge-cheap">💰 Цена + качество</div>
-                    <h3>AdminVPS</h3>
-                    <p class="card-desc">Провайдер с девизом «всё включено». Уже на стартовом тарифе за 299 ₽ выдаётся NVMe-диск, бесплатные ежедневные бэкапы и панель ispmanager. Линейка «Мощные» построена на Intel Core i9 с частотой до 5.0 ГГц. Площадки — Россия, Финляндия, Германия, Нидерланды, Польша, Казахстан. Промокод VPS30 снижает цену первого заказа на 30 %, а 7-дневный тестовый период позволяет всё проверить без рисков. На обслуживании более 35 000 сайтов. Входит в реестр хостинг-провайдеров РФ.</p>
-                    <div class="card-meta">
-                        <span>📍 RU, FI, DE, NL, PL, KZ</span>
-                        <span>💾 NVMe</span>
-                        <span>🌐 До 1 Гбит/с</span>
-                        <span>⚡ До 5.0 ГГц</span>
-                    </div>
-                    <div class="card-tags">
-                        <span class="tag hot">VPS30 — минус 30%</span><span class="tag">KVM</span><span class="tag">NVMe</span><span class="tag">Бэкапы 0₽</span><span class="tag">ispmanager</span>
-                    </div>
-                </div>
-                <div class="card-right">
-                    <div class="card-price">от 299₽</div>
-                    <div class="card-price-label">в месяц</div>
-                    <div class="card-score">★★★★★ 4.8</div>
-                    <a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" class="card-btn card-btn-primary card-btn-green" target="_blank" rel="nofollow noopener">Забрать скидку 30% →</a>
-                    <div class="promo-code">🎁 VPS30 — скидка 30%</div>
-                    <div class="live-chip">👁 <span id="views-adminvps">203</span> смотрят</div>
-                </div>
-            </div>
-
-            <!-- 4. Timeweb Cloud -->
-            <div class="rating-card">
-                <div class="rank">4</div>
-                <div class="card-info">
                     <div class="badge-new">🏢 Облако для бизнеса</div>
                     <h3>Timeweb Cloud</h3>
-                    <p class="card-desc">Лауреат Премии Рунета в номинации «Облачное решение года» и лидер по числу IaaS-клиентов в России — более 132 000 аккаунтов. Дата-центры уровня Tier III стоят в трёх городах: Москва, Петербург, Новосибирск. Есть зарубежные точки во Франкфурте, Амстердаме и Алматы. Биллинг посчасовой — минимальный взнос 50 рублей. Для DevOps доступны API, Terraform-провайдер, CLI-утилита и Cloud-init. Юрлицам готовят закрывающие документы и персонального менеджера.</p>
+                    <p class="card-desc">Лауреат Премии Рунета «Облачное решение года» и лидер российского IaaS - свыше 132 000 активных аккаунтов. Tier III ЦОДы в трёх городах: Москва, Петербург, Новосибирск. Зарубежные точки во Франкфурте, Амстердаме, Хельсинки и Алматы. Посчасовой биллинг, минимальный взнос 50 рублей. REST API, Terraform-провайдер, CLI-утилита, Cloud-init. Юрлицам - закрывающие документы и персональный менеджер. Когда нужен VPS хостинг в России для серьёзного бизнеса с развитой экосистемой - это он.</p>
                     <div class="card-meta">
                         <span>📍 МСК, СПб, НСК + EU, KZ</span>
                         <span>💾 NVMe</span>
@@ -484,13 +431,39 @@
                 </div>
             </div>
 
+            <!-- 4. Aeza -->
+            <div class="rating-card">
+                <div class="rank">4</div>
+                <div class="card-info">
+                    <div class="badge-popular">⚡ Топовое железо</div>
+                    <h3>Aeza</h3>
+                    <p class="card-desc">Молодой провайдер с упором на мощное железо. Ryzen 9 9950X, NVMe с RAM-кешем, порт до 10 Гбит/с. Фильтрация DDoS до 2 Тбит/с без доплаты. Биллинг почасовой - можно запустить сервер на час и заплатить рубль с мелочью. Площадки в Москве и семи европейских странах. <strong>Важно:</strong> с декабря 2025 Aeza блокирует VPN на российских площадках по требованию РКН. Для VPN берите европейские локации - там без ограничений.</p>
+                    <div class="card-meta">
+                        <span>📍 Москва + 7 стран EU</span>
+                        <span>💾 NVMe + RAM cache</span>
+                        <span>🌐 До 10 Гбит/с</span>
+                        <span>⚡ Ryzen 9 9950X</span>
+                    </div>
+                    <div class="card-tags">
+                        <span class="tag hot">Ryzen 9</span><span class="tag">KVM</span><span class="tag">NVMe</span><span class="tag">Почасовая</span><span class="tag">Крипто</span><span class="tag">⚠️ VPN на РФ блок</span>
+                    </div>
+                </div>
+                <div class="card-right">
+                    <div class="card-price">от 593₽</div>
+                    <div class="card-price-label">в месяц</div>
+                    <div class="card-score">★★★★★ 4.8</div>
+                    <a href="https://aeza.net/?ref=797084" class="card-btn card-btn-primary" target="_blank" rel="nofollow noopener">Арендовать VPS →</a>
+                    <div class="live-chip">👁 <span id="views-aeza">187</span> смотрят</div>
+                </div>
+            </div>
+
             <!-- 5. RUVDS -->
             <div class="rating-card">
                 <div class="rank">5</div>
                 <div class="card-info">
                     <div class="badge-cheap">💰 Самый доступный VPS РФ</div>
                     <h3>RUVDS</h3>
-                    <p class="card-desc">Абсолютный рекордсмен по нижней планке цены: тариф «Старт» стоит всего 139 ₽/мес, и за эти деньги вы получаете полноценную виртуалку в московском ЦОД уровня Tier III. Есть 3-дневный бесплатный тест на любом тарифе до 3 000 ₽. Фильтрация DDoS держит до 1.5 Тбит/с. Среди способов оплаты — рубли, криптовалюты и даже корпоративные счета. Сертификат ФСТЭК. Если бюджет ограничен, а нужно арендовать VPS сервер в России дешево — сюда.</p>
+                    <p class="card-desc">Рекордсмен по нижней планке цены: 139 ₽/мес за полноценную виртуалку в московском Tier III ЦОД. 3-дневный бесплатный тест на любом тарифе до 3 000 ₽. DDoS-фильтрация до 1.5 Тбит/с. Оплата рублями, крипта, корпоративные счета. Сертификат ФСТЭК. Бюджет жмёт - сюда.</p>
                     <div class="card-meta">
                         <span>📍 Москва + регионы</span>
                         <span>💾 HDD / SSD / NVMe</span>
@@ -514,7 +487,7 @@
                 <div class="rank">6</div>
                 <div class="card-info">
                     <h3>Selectel</h3>
-                    <p class="card-desc">Enterprise-провайдер со своими дата-центрами в Петербурге и Москве. SLA 99.95 %, собственная DNS-инфраструктура, S3-совместимое хранилище, managed Kubernetes и GPU-серверы — набор инструментов для крупных проектов. Тарификация поминутная, конфигуратор позволяет собрать машину под конкретную нагрузку. VPS Россия крупного масштаба — здесь чувствуется запас мощностей и инженерная зрелость площадки.</p>
+                    <p class="card-desc">Enterprise-провайдер со своими ЦОДами в Петербурге и Москве. SLA 99.95%, собственная DNS-инфраструктура, S3-хранилище, managed Kubernetes и GPU-серверы. Поминутная тарификация, конфигуратор под конкретную нагрузку. Тут чувствуется запас мощностей и инженерная зрелость.</p>
                     <div class="card-meta">
                         <span>📍 СПб, Москва</span>
                         <span>💾 NVMe</span>
@@ -538,7 +511,7 @@
                 <div class="rank">7</div>
                 <div class="card-info">
                     <h3>Beget</h3>
-                    <p class="card-desc">Питерский хостер с 2007 года, знакомый каждому вебмастеру. VPS-линейка построена на NVMe и процессорах до 4.5 ГГц. Собственная панель управления заточена под простоту: развернуть WordPress или Node.js-приложение можно в пару кликов через встроенный маркетплейс образов. VPS хостинг Россия для тех, кому важно начать быстро и без изучения документации на сто страниц.</p>
+                    <p class="card-desc">Питерский хостер с 2007 года. VPS на NVMe и процессорах до 4.5 ГГц. Своя панель управления заточена под простоту: развернуть WordPress или Node.js - пара кликов через маркетплейс образов. Бэкапы ежедневно, бесплатно.</p>
                     <div class="card-meta">
                         <span>📍 Санкт-Петербург</span>
                         <span>💾 NVMe</span>
@@ -562,7 +535,7 @@
                 <div class="rank">8</div>
                 <div class="card-info">
                     <h3>FirstVDS</h3>
-                    <p class="card-desc">Один из старейших VDS-провайдеров страны. Главная фишка — 14-дневный бесплатный тестовый период, самый щедрый на рынке. Тарифы стартуют от 249 ₽, диски SSD, конфигуратор позволяет гибко добавлять ядра, память и дисковое пространство. Хороший вариант для тех, кто хочет арендовать VPS в РФ недорого и при этом спокойно протестировать площадку две полные недели.</p>
+                    <p class="card-desc">Один из старейших VDS-провайдеров страны. 14-дневный бесплатный тест - самый щедрый на рынке. Тарифы от 249 ₽, SSD-диски, гибкий конфигуратор.</p>
                     <div class="card-meta">
                         <span>📍 Россия</span>
                         <span>💾 SSD</span>
@@ -586,7 +559,7 @@
                 <div class="rank">9</div>
                 <div class="card-info">
                     <h3>VDSina</h3>
-                    <p class="card-desc">Проект компании «МакХост», сфокусированный на облачных VDS. Серверы работают на AMD EPYC, конфигурации масштабируются вплоть до 128 ядер и 512 ГБ оперативки. Посчасовой биллинг, 32 ТБ трафика в месяц, честное распределение ресурсов без оверселлинга. Ценят разработчики, которым нужна предсказуемая производительность и прозрачные правила.</p>
+                    <p class="card-desc">Проект «МакХост». AMD EPYC, масштабирование до 128 ядер. Посчасовой биллинг, 32 ТБ трафика. Ресурсы без оверселлинга.</p>
                     <div class="card-meta">
                         <span>📍 Россия, NL</span>
                         <span>💾 NVMe</span>
@@ -610,7 +583,7 @@
                 <div class="rank">10</div>
                 <div class="card-info">
                     <h3>REG.RU</h3>
-                    <p class="card-desc">Крупнейший доменный регистратор страны, предлагающий в том числе облачные VPS. Три площадки в Москве, Петербурге и Самаре. Встроенные образы популярных CMS, панели ISPmanager и Plesk. Удобно, если домены уже зарегистрированы здесь и хочется держать всю инфраструктуру в одном кабинете. VPS хостинг РФ для тех, кто ценит экосистему «всё под одной крышей».</p>
+                    <p class="card-desc">Крупнейший доменный регистратор, предлагающий облачные VPS. Три площадки: Москва, Петербург, Самара. Встроенные образы CMS, ISPmanager и Plesk. Удобно, когда домены уже тут - экосистема «всё под одной крышей».</p>
                     <div class="card-meta">
                         <span>📍 МСК, СПб, Самара</span>
                         <span>💾 SSD / NVMe</span>
@@ -649,28 +622,28 @@
                         <th>CPU</th>
                         <th>Диски</th>
                         <th>Канал</th>
-                        <th>DDoS-защита</th>
+                        <th>DDoS</th>
                         <th>Площадки РФ</th>
                         <th>Зарубежные ЦОД</th>
+                        <th>VPN на EU</th>
                         <th>Тест</th>
                         <th>Крипто</th>
-                        <th>Ссылка</th>
                     </tr>
                 </thead>
                 <tbody>
                     <tr style="background:rgba(255,215,0,.04)">
                         <td><strong style="color:var(--gold)">1</strong></td>
-                        <td><strong>Aeza</strong></td>
-                        <td><strong style="color:var(--green)">593</strong></td>
-                        <td>Ryzen 9 9950X</td>
-                        <td>NVMe + RAM cache</td>
-                        <td>10 Гбит/с</td>
-                        <td>2 Тбит/с</td>
-                        <td>Москва</td>
-                        <td>DE, NL, AT, FI</td>
-                        <td>Посчасовой</td>
+                        <td><strong>AdminVPS</strong><span class="table-promo">VPS30</span></td>
+                        <td><strong style="color:var(--green)">299</strong></td>
+                        <td>i9 до 5.0 ГГц</td>
+                        <td>NVMe</td>
+                        <td>1 Гбит/с</td>
+                        <td>Базовая</td>
+                        <td>Россия</td>
+                        <td>FI, DE, NL, PL, KZ</td>
                         <td>✅</td>
-                        <td><a href="https://aeza.net/?ref=797084" target="_blank" rel="nofollow noopener">Перейти</a></td>
+                        <td>7 дней</td>
+                        <td>-</td>
                     </tr>
                     <tr style="background:rgba(192,192,192,.04)">
                         <td><strong style="color:var(--silver)">2</strong></td>
@@ -682,26 +655,12 @@
                         <td>10 Гбит/с</td>
                         <td>Москва</td>
                         <td>DE, NL, CH, US, SE, ES</td>
+                        <td>✅</td>
                         <td>Возврат 7 дн.</td>
                         <td>✅</td>
-                        <td><a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" target="_blank" rel="nofollow noopener">Перейти</a></td>
                     </tr>
                     <tr style="background:rgba(205,127,50,.04)">
                         <td><strong style="color:var(--bronze)">3</strong></td>
-                        <td><strong>AdminVPS</strong><span class="table-promo">VPS30</span></td>
-                        <td><strong style="color:var(--green)">299</strong></td>
-                        <td>i9 до 5.0 ГГц</td>
-                        <td>NVMe</td>
-                        <td>1 Гбит/с</td>
-                        <td>Базовая</td>
-                        <td>Россия</td>
-                        <td>FI, DE, NL, PL, KZ</td>
-                        <td>7 дней</td>
-                        <td>—</td>
-                        <td><a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" target="_blank" rel="nofollow noopener">-30% →</a></td>
-                    </tr>
-                    <tr>
-                        <td><strong>4</strong></td>
                         <td><strong>Timeweb Cloud</strong></td>
                         <td><strong style="color:var(--green)">477</strong></td>
                         <td>3.3 ГГц</td>
@@ -710,9 +669,23 @@
                         <td>L3/L4/L7</td>
                         <td>МСК, СПб, НСК</td>
                         <td>DE, NL, KZ, TR, FI</td>
-                        <td>Бонус на баланс</td>
-                        <td>—</td>
-                        <td><a href="https://timeweb.cloud/?i=138553" target="_blank" rel="nofollow noopener">Перейти</a></td>
+                        <td>✅</td>
+                        <td>Бонус</td>
+                        <td>-</td>
+                    </tr>
+                    <tr>
+                        <td><strong>4</strong></td>
+                        <td><strong>Aeza</strong></td>
+                        <td><strong style="color:var(--green)">593</strong></td>
+                        <td>Ryzen 9 9950X</td>
+                        <td>NVMe + RAM</td>
+                        <td>10 Гбит/с</td>
+                        <td>2 Тбит/с</td>
+                        <td>Москва</td>
+                        <td>DE, NL, AT, FI, FR, SE, UK</td>
+                        <td>✅</td>
+                        <td>Посчасовой</td>
+                        <td>✅</td>
                     </tr>
                     <tr>
                         <td><strong>5</strong></td>
@@ -723,10 +696,10 @@
                         <td>100 Мбит/с</td>
                         <td>1.5 Тбит/с</td>
                         <td>Москва</td>
-                        <td>—</td>
+                        <td>-</td>
+                        <td>-</td>
                         <td>3 дня</td>
                         <td>✅</td>
-                        <td><a href="https://ruvds.com/ru-rub" target="_blank" rel="nofollow noopener">Перейти</a></td>
                     </tr>
                     <tr>
                         <td><strong>6</strong></td>
@@ -737,10 +710,10 @@
                         <td>1 Гбит/с</td>
                         <td>Включена</td>
                         <td>МСК, СПб</td>
-                        <td>—</td>
-                        <td>—</td>
-                        <td>—</td>
-                        <td><a href="https://selectel.ru/services/cloud/servers/vps-hosting/" target="_blank" rel="nofollow noopener">Перейти</a></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
                     </tr>
                     <tr>
                         <td><strong>7</strong></td>
@@ -751,10 +724,10 @@
                         <td>Безлимит</td>
                         <td>Включена</td>
                         <td>СПб</td>
-                        <td>—</td>
-                        <td>—</td>
-                        <td>—</td>
-                        <td><a href="https://beget.com/ru/vps" target="_blank" rel="nofollow noopener">Перейти</a></td>
+                        <td>NL</td>
+                        <td>✅</td>
+                        <td>-</td>
+                        <td>-</td>
                     </tr>
                     <tr>
                         <td><strong>8</strong></td>
@@ -766,9 +739,9 @@
                         <td>Включена</td>
                         <td>Россия</td>
                         <td>NL</td>
+                        <td>✅</td>
                         <td>14 дней</td>
-                        <td>—</td>
-                        <td><a href="https://firstvds.ru/products/vds_vps_hosting" target="_blank" rel="nofollow noopener">Перейти</a></td>
+                        <td>-</td>
                     </tr>
                     <tr>
                         <td><strong>9</strong></td>
@@ -780,9 +753,9 @@
                         <td>Включена</td>
                         <td>Россия</td>
                         <td>NL</td>
+                        <td>✅</td>
                         <td>Посчасовой</td>
-                        <td>—</td>
-                        <td><a href="https://vdsina.ru/pricing" target="_blank" rel="nofollow noopener">Перейти</a></td>
+                        <td>-</td>
                     </tr>
                     <tr>
                         <td><strong>10</strong></td>
@@ -793,152 +766,29 @@
                         <td>Безлимит</td>
                         <td>Включена</td>
                         <td>МСК, СПб, Самара</td>
-                        <td>—</td>
-                        <td>—</td>
-                        <td>—</td>
-                        <td><a href="https://www.reg.ru/vps/cloud" target="_blank" rel="nofollow noopener">Перейти</a></td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
+                        <td>-</td>
                     </tr>
                 </tbody>
             </table>
         </div>
 
-        <p style="text-align:center;margin-top:1.5rem;font-size:.85rem;color:var(--text2)">Цены указаны за минимальный тариф. Промокод <strong style="color:var(--green)">VPS30</strong> дополнительно снижает стоимость AdminVPS на 30%.</p>
-
-        <!-- Вторая таблица — быстрое сравнение стартовых конфигов -->
-        <h3 style="text-align:center;margin-top:3rem;margin-bottom:1.5rem;font-size:1.2rem;font-weight:700;color:#fff">Стартовые конфигурации: что получаете за минимальную цену</h3>
-
-        <div class="table-wrap">
-            <table>
-                <thead>
-                    <tr>
-                        <th>Провайдер</th>
-                        <th>Цена</th>
-                        <th>vCPU</th>
-                        <th>RAM</th>
-                        <th>Диск</th>
-                        <th>Трафик</th>
-                        <th>Виртуализация</th>
-                        <th>Бэкапы</th>
-                    </tr>
-                </thead>
-                <tbody>
-                    <tr style="background:rgba(255,215,0,.04)">
-                        <td><strong>Aeza</strong></td>
-                        <td><strong style="color:var(--green)">593 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>1 ГБ</td>
-                        <td>10 ГБ NVMe</td>
-                        <td>Безлимит</td>
-                        <td>KVM</td>
-                        <td>Платные</td>
-                    </tr>
-                    <tr style="background:rgba(192,192,192,.04)">
-                        <td><strong>Fornex</strong></td>
-                        <td><strong style="color:var(--green)">581 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>1 ГБ</td>
-                        <td>10 ГБ NVMe</td>
-                        <td>Безлимит</td>
-                        <td>KVM</td>
-                        <td>Платные</td>
-                    </tr>
-                    <tr style="background:rgba(205,127,50,.04)">
-                        <td><strong>AdminVPS</strong><span class="table-promo">VPS30</span></td>
-                        <td><strong style="color:var(--green)">299 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>1 ГБ</td>
-                        <td>15 ГБ NVMe</td>
-                        <td>Безлимит</td>
-                        <td>KVM</td>
-                        <td>Бесплатно</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Timeweb Cloud</strong></td>
-                        <td><strong style="color:var(--green)">477 ₽</strong></td>
-                        <td>1 × 3.3 ГГц</td>
-                        <td>1 ГБ</td>
-                        <td>15 ГБ NVMe</td>
-                        <td>Безлимит</td>
-                        <td>KVM</td>
-                        <td>Платные</td>
-                    </tr>
-                    <tr>
-                        <td><strong>RUVDS</strong></td>
-                        <td><strong style="color:var(--green)">139 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>512 МБ</td>
-                        <td>10 ГБ HDD</td>
-                        <td>Безлимит</td>
-                        <td>KVM / Hyper-V</td>
-                        <td>Платные</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Selectel</strong></td>
-                        <td><strong style="color:var(--green)">250 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>1 ГБ</td>
-                        <td>5 ГБ NVMe</td>
-                        <td>Безлимит</td>
-                        <td>KVM</td>
-                        <td>Платные</td>
-                    </tr>
-                    <tr>
-                        <td><strong>Beget</strong></td>
-                        <td><strong style="color:var(--green)">210 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>1 ГБ</td>
-                        <td>10 ГБ NVMe</td>
-                        <td>Безлимит</td>
-                        <td>KVM</td>
-                        <td>Бесплатно</td>
-                    </tr>
-                    <tr>
-                        <td><strong>FirstVDS</strong></td>
-                        <td><strong style="color:var(--green)">249 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>512 МБ</td>
-                        <td>10 ГБ SSD</td>
-                        <td>Безлимит</td>
-                        <td>KVM</td>
-                        <td>Платные</td>
-                    </tr>
-                    <tr>
-                        <td><strong>VDSina</strong></td>
-                        <td><strong style="color:var(--green)">240 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>1 ГБ</td>
-                        <td>15 ГБ NVMe</td>
-                        <td>32 ТБ</td>
-                        <td>KVM</td>
-                        <td>Платные</td>
-                    </tr>
-                    <tr>
-                        <td><strong>REG.RU</strong></td>
-                        <td><strong style="color:var(--green)">399 ₽</strong></td>
-                        <td>1 ядро</td>
-                        <td>1 ГБ</td>
-                        <td>15 ГБ SSD</td>
-                        <td>Безлимит</td>
-                        <td>KVM</td>
-                        <td>Платные</td>
-                    </tr>
-                </tbody>
-            </table>
-        </div>
+        <p style="text-align:center;margin-top:1.5rem;font-size:.85rem;color:var(--text2)">Цены за минимальный тариф на 22 апреля 2026. Столбец «VPN на EU» - разрешены ли VPN-протоколы на зарубежных площадках провайдера. Код <strong style="color:var(--green)">VPS30</strong> режет AdminVPS на 30%.</p>
 
         <div class="article-highlight" style="max-width:800px;margin:2rem auto 0">
-            <strong>Вывод из таблицы:</strong> По соотношению цены к набору характеристик выделяются AdminVPS (NVMe + бесплатные бэкапы от 299 ₽, промокод VPS30 снижает ещё на 30%) и Beget (NVMe + бэкапы от 210 ₽). Самый низкий порог входа у RUVDS (139 ₽), но стартовый тариф идёт с HDD. Максимум производительности на рубль дает Aeza благодаря Ryzen 9 и NVMe с RAM-кешем.
+            <strong>Что видно из таблицы:</strong> AdminVPS даёт NVMe + бесплатные бэкапы от 299 ₽ и шесть площадок от России до Казахстана. Fornex - семь стран, крипта и PayPal. Timeweb Cloud - Tier III в трёх городах РФ и Terraform. Aeza - топовое железо, но блокирует VPN на российских серверах. Самый дешёвый вход - RUVDS за 139 ₽, но на HDD.
         </div>
     </div>
 </section>
-
 
 <!-- MID CTA -->
 <div style="padding:0 2rem;max-width:1100px;margin:0 auto">
     <div class="mid-cta-banner">
         <div class="mcb-text">
-            <h3>🚀 AdminVPS — минус 30% по промокоду VPS30</h3>
-            <p>от 299 ₽/мес · NVMe-диски · площадки в РФ и Европе · неделя тестового периода · ежедневные бэкапы в подарок</p>
+            <h3>🚀 AdminVPS - минус 30% по промокоду VPS30</h3>
+            <p>от 299 ₽/мес · NVMe · площадки в РФ и Европе · неделя тестового периода · ежедневные бэкапы в подарок</p>
         </div>
         <a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" class="mcb-btn" target="_blank" rel="nofollow">Забрать скидку →</a>
     </div>
@@ -951,57 +801,60 @@
         <p class="section-sub">Четыре параметра, которые стоит проверить до оплаты</p>
 
         <h2 id="locations">Где стоит сервер</h2>
-        <p>Географию площадки выбирают по аудитории. Сайт рассчитан на Москву и ЦФО — берите ЦОД в столице (Aeza, RUVDS, Timeweb Cloud). Целевая группа в Северо-Западном округе — Петербург (Selectel, Beget, Timeweb Cloud). Сибирь и Дальний Восток обслужит новосибирский кластер Timeweb Cloud.</p>
+        <p>Географию площадки выбирают по аудитории. Сайт на Москву и ЦФО - берите столичный ЦОД (Aeza, RUVDS, Timeweb Cloud). Северо-Запад - Петербург (Selectel, Beget, Timeweb Cloud). Сибирь и Дальний Восток - новосибирский кластер Timeweb Cloud.</p>
 
-        <p>Когда задача другая — купить VPS за границей с оплатой из России — смотрите на Fornex с семью локациями от Германии до США и на AdminVPS с площадками в Финляндии, Германии, Нидерландах, Польше. Оба хостинга принимают рубли напрямую.</p>
+        <p>Нужен VPS за границей с оплатой из России - смотрите Fornex (семь локаций от Германии до США) и AdminVPS (Финляндия, Германия, Нидерланды, Польша). Оба берут рубли напрямую.</p>
 
         <h2>Виртуализация</h2>
-        <p>Все участники рейтинга работают на KVM (у RUVDS часть тарифов на Hyper-V). KVM изолирует ресурсы на уровне ядра, позволяет ставить любую ОС, запускать Docker и даже виртуализацию внутри виртуализации. Технология OpenVZ, которая ещё встречается у мелких хостеров, накладывает серьёзные ограничения — от неё лучше держаться подальше.</p>
+        <p>Все участники рейтинга на KVM (у RUVDS часть тарифов на Hyper-V). KVM изолирует ресурсы на уровне ядра, позволяет ставить любую ОС, запускать Docker и вложенную виртуализацию. OpenVZ - проходите мимо.</p>
 
         <h2>Железо и диски</h2>
-        <p>Типовому WordPress-блогу или корпоративной визитке хватит 1 ядра, 1 ГБ оперативки и 15-20 ГБ SSD. Интернет-магазин на Битрикс, 1С-сервер или нагруженный API потребуют от 2 ядер и 4 ГБ RAM. Обращайте внимание на тип накопителя: NVMe-диски работают в 3-5 раз быстрее классических SSD, а у Aeza они ещё и с RAM-кешем — разница на дисковых бенчмарках видна невооружённым глазом.</p>
+        <p>WordPress-блогу хватит 1 ядра, 1 ГБ оперативки, 15 ГБ SSD. Битрикс, 1С, нагруженный API - от 2 ядер и 4 ГБ RAM. NVMe-диски в 3-5 раз быстрее SSD, а у Aeza ещё и с RAM-кешем.</p>
 
         <h2 id="payment">Как платить</h2>
-        <p>Карты Мир, Visa и MasterCard российских банков принимают все десять провайдеров. Timeweb Cloud добавляет СБП, SberPay и ЮMoney. RUVDS, Aeza и Fornex работают с криптовалютами (Bitcoin, Ethereum и другие). Fornex поддерживает ещё и PayPal — пригодится, если он у вас привязан к зарубежному счёту. Для юрлиц Timeweb Cloud и Selectel выставляют безналичные счета с закрывающими документами.</p>
+        <p>Карты Мир, Visa и MasterCard российских банков берут все десять. Timeweb Cloud добавляет СБП, SberPay и ЮMoney. RUVDS, Aeza и Fornex работают с криптой. Fornex ещё и PayPal. Для юрлиц Timeweb Cloud и Selectel выставляют безналичные счета.</p>
 
         <div class="article-highlight2">
-            <strong>Резюме:</strong> Самый дешёвый VPS в России — RUVDS от 139 ₽. Оптимум по цене и характеристикам — AdminVPS от 299 ₽ (применяйте промокод VPS30). Для зарубежного сервера с оплатой из РФ — Fornex или Aeza.
+            <strong>Коротко:</strong> Самый дешёвый VPS - RUVDS от 139 ₽. Баланс цены и характеристик - AdminVPS от 299 ₽ (код VPS30 режет на 30%). Зарубежный сервер за рубли - Fornex или AdminVPS.
         </div>
     </div>
 </section>
 
-<!-- VPN -->
-<section class="section">
+<!-- VPN - ПОЛНОСТЬЮ ПЕРЕПИСАН -->
+<section class="section" id="vpn">
     <div class="article">
-        <h2>VPS для VPN в России: что изменилось в апреле 2026</h2>
-        <p>Ещё полгода назад всё было просто: берёшь VPS за рубежом, ставишь WireGuard, работает. Сейчас не работает. Точнее, работает не всё и не везде.</p>
+        <h2>VPS для VPN: что реально работает 22 апреля 2026</h2>
 
-        <p>Три вещи произошли за последний месяц. Первая: ТСПУ научились резать WireGuard и OpenVPN без обфускации почти стопроцентно. На мобильных сетях эти протоколы мертвы. На домашней оптике цепляются через раз. Вторая: 3 апреля РКН так агрессивно фильтровал VPN-трафик, что положил платежные системы Сбербанка, ВТБ и Т-Банка. Третья: Aeza ещё в декабре начала блокировать серверы с VPN на российских площадках по требованию РКН. Другие хостеры из реестра могут последовать.</p>
+        <p>Переписываю этот раздел третий раз за полтора месяца. Каждый раз хуже.</p>
 
-        <p>Что это значит практически. Для собственного VPN-сервера нужен VPS за пределами РФ. И нужен протокол с обфускацией: VLESS Reality, AmneziaWG, Shadowsocks. Голый WireGuard на зарубежном VPS всё ещё может работать через домашнюю оптику, но на мобильном интернете его режут.</p>
+        <p>16 апреля The Bell раскрыл: все блокировки интернета в России курирует Вторая служба ФСБ. Та самая, что травила Навального. Telegram нестабилен с 1 апреля. С 15-го числа Яндекс, Ozon, ВК и ещё 20+ платформ режут VPN-трафик по требованию Минцифры. Apple удалила VPN-клиенты из App Store. 17 апреля «Коммерсантъ» и Meduza написали: российским хостерам хотят запретить размещать VPN-сервисы вообще (законопроект «Антифрод 2.0»). Aeza блокирует VPN на российских площадках с декабря 2025.</p>
 
-        <p>Где брать зарубежный VPS с оплатой из России прямо сейчас. Fornex - Нидерланды, Германия, Швейцария, США. Карты РФ, крипта. AdminVPS - Финляндия, Германия, Нидерланды, Польша. Рубли напрямую, промокод VPS30. Европейские локации Aeza - Германия, Нидерланды, Австрия, Финляндия. Крипта и рубли.</p>
+        <p>Что мертво. WireGuard на мобильном интернете. ТСПУ режут по сигнатуре за миллисекунды. На домашней оптике - лотерея. VLESS Reality - нестабилен с февраля, ТСПУ научились определять по паттерну TLS-хендшейков. OpenVPN - мёртв давно.</p>
 
-        <p>Тарифа с 1 ядром и 512 МБ хватает для WireGuard или VLESS на 5-10 устройств. Для Amnezia VPN или 3X-UI с веб-панелью лучше от 1 ГБ оперативки. Все провайдеры рейтинга на зарубежных площадках дают полный root и поддерживают TUN/TAP.</p>
+        <p>Что живо. VLESS+XHTTP - новый транспорт, маскируется под обычный HTTP, ТСПУ пока не ловят. Нужен 1 ГБ RAM. AmneziaWG через домашнюю оптику - работает у большинства, на мобильном нестабилен с 1 апреля. Раздельное туннелирование обязательно: российские сайты напрямую, заблокированные через тоннель.</p>
+
+        <p>Где брать VPS для VPN. Только за границей. Fornex - Швейцария, Германия, Нидерланды. Зарегистрирован в Испании, VPN не трогает. AdminVPS - Финляндия (15 мс из Питера), Германия, Нидерланды. Рубли, промокод VPS30. Европейские локации Aeza - семь стран, без ограничений. Все трое берут рубли.</p>
 
         <div class="article-highlight3">
-            <strong>Обратите внимание (апрель 2026):</strong> российские хостеры из реестра РКН начали ограничивать VPN-протоколы. Aeza уже блокирует. Другие могут последовать. Для VPN-задач берите только зарубежные площадки: Fornex, AdminVPS, европейские локации Aeza. Оплата рублями и криптой доступна у всех трёх. И ставьте протоколы с обфускацией - голый WireGuard на мобильном интернете РФ не подключается.
+            <strong>22 апреля 2026, итог.</strong> WireGuard мёртв на мобильном. VLESS Reality нестабилен. Работают: VLESS+XHTTP и AmneziaWG (домашняя оптика). Раздельное туннелирование обязательно. VPN только на зарубежных серверах - российским хостерам хотят запретить VPN законодательно. Fornex, AdminVPS (код VPS30) и европейские локации Aeza - проверены, протоколы не блокируют.
         </div>
     </div>
 </section>
 
-<!-- VPS в Европе -->
+<!-- Зарубежные VPS -->
 <section class="section" style="background:var(--bg2)">
     <div class="article">
         <h2>Зарубежные VPS с оплатой из России</h2>
-        <p>После 2022 года многие западные хостеры отключили приём платежей из РФ. Это не значит, что дорога к европейским серверам закрыта — просто нужно знать правильные адреса.</p>
+        <p>После 2022-го большинство западных хостеров отрезали российские карты. Дорога к европейским серверам не закрыта - нужно знать правильные адреса.</p>
 
-        <p><strong>Fornex</strong> — испанская компания с российскими корнями. Серверы в семи странах, карты РФ и криптовалюта. Тарифы в евро, но рублёвый эквивалент стартует примерно от 581 ₽. Гарантированный возврат средств в первые 7 дней. <strong>AdminVPS</strong> — серверы в Финляндии, Германии, Нидерландах и Польше, оплата напрямую в рублях с любой карты, промокод VPS30 снижает первый счёт на 30 %. <strong>Aeza</strong> — помимо московского ЦОД есть европейские площадки, оплата рублями и крипой.</p>
+        <p><strong>Fornex</strong> - испанская компания с российскими корнями. Семь стран, карты РФ, крипта, PayPal. От ~581 ₽. Возврат за первые 7 дней. VPN не ограничивают ни на одной площадке.</p>
 
-        <p>При выборе зарубежного VPS сервера с оплатой из России ориентируйтесь на географию аудитории. Германия и Нидерланды дают лучший баланс задержки для Европы. Для проектов, ориентированных на Скандинавию, подойдёт финская площадка AdminVPS. Для глобального покрытия — США у Fornex.</p>
+        <p><strong>AdminVPS</strong> - Финляндия, Германия, Нидерланды, Польша. Рубли напрямую с любой карты. Промокод VPS30 минус 30%. VPN на зарубежных площадках без ограничений.</p>
+
+        <p><strong>Aeza</strong> - Москва + семь стран Европы. Рубли и крипта. На российских площадках блокирует VPN. На европейских - нет.</p>
 
         <div class="article-highlight">
-            <strong>Коротко:</strong> Fornex (7 локаций, 16+ лет, карты РФ + крипто), AdminVPS (минус 30 % по VPS30, рубли напрямую) и Aeza (Европа + Москва) — три проверенных способа получить VPS за границей с оплатой из России.
+            <strong>Три проверенных маршрута:</strong> Fornex (7 локаций, 16+ лет, карты РФ + крипто + PayPal), AdminVPS (минус 30% по VPS30, рубли напрямую) и Aeza (Европа, рубли + крипто, почасовой расчёт).
         </div>
     </div>
 </section>
@@ -1015,36 +868,34 @@
             <div class="pros">
                 <h4>✅ Дешёвые VPS (139-299 ₽/мес)</h4>
                 <p>→ RUVDS, AdminVPS, Beget, FirstVDS</p>
-                <p>→ Подойдут для лендингов, Telegram-ботов, личного VPN</p>
-                <p>→ Есть пробные периоды от 3 до 14 суток</p>
+                <p>→ Лендинги, Telegram-боты, личный VPN</p>
+                <p>→ Пробные периоды от 3 до 14 суток</p>
                 <p>→ KVM на всех тарифах</p>
-                <p>→ Хороший старт, чтобы разобраться в теме</p>
+                <p>→ Хороший старт для первого VPS</p>
             </div>
             <div class="cons">
                 <h4>✅ Мощные VPS (от 477 ₽/мес)</h4>
                 <p>→ Aeza, Fornex, Timeweb Cloud, Selectel</p>
                 <p>→ NVMe с кешем, Ryzen 9, EPYC, каналы до 10 Гбит</p>
                 <p>→ API, Terraform, CI/CD-интеграции</p>
-                <p>→ Безлимитный или очень большой трафик</p>
+                <p>→ Безлимитный трафик</p>
                 <p>→ Для продакшена, e-commerce, SaaS</p>
             </div>
         </div>
 
-        <p>Часто ищут «VPS в России дешевле 100 рублей». Формально такое возможно: у Aeza посчасовая тарификация от 1.4 ₽/час, а если включать сервер на пару часов в день, месячный счёт будет ниже сотни. Но полноценный месячный тариф с круглосуточной работой дешевле 139 ₽ вы сегодня не найдёте. Причём за эти деньги RUVDS отдаёт HDD-диск и 512 МБ памяти — для серьёзной нагрузки маловато. Реалистичный минимум для комфортной работы — 250-300 ₽ с NVMe и гигабайтом RAM.</p>
+        <p>Реалистичный минимум для комфортной работы - 250-300 ₽ с NVMe и гигабайтом RAM. За 139 ₽ у RUVDS дадут HDD и 512 МБ - для серьёзной нагрузки маловато.</p>
 
-        <p>Про бесплатный VPS сервер в России: бессрочных предложений нет. Однако тестовые периоды вполне рабочие: RUVDS даёт 3 дня, AdminVPS — неделю, FirstVDS — целых две. Timeweb Cloud зачисляет пробные бонусы при обращении в техподдержку. Этого хватит, чтобы развернуть проект и понять, устраивает ли площадка.</p>
+        <p>Бесплатного VPS сервера в России нет. Но тестовые периоды рабочие: RUVDS 3 дня, AdminVPS неделя, FirstVDS две недели. Timeweb Cloud начисляет бонусы при обращении в поддержку.</p>
     </div>
 </section>
 
 <!-- DDoS -->
 <section class="section" style="background:var(--bg2)">
     <div class="article">
-        <h2>Защита VPS от DDoS-атак: кто что предлагает</h2>
-        <p>Публичный сервер без защиты — мишень. Особенно если на нём крутится интернет-магазин, форум или игровой проект. Приятно, что большинство провайдеров из рейтинга включают базовую фильтрацию в тариф.</p>
+        <h2>Защита VPS от DDoS: кто что даёт</h2>
+        <p>Aeza - до 2 Тбит/с грубой фильтрации, 600 Гбит/с тонкой. RUVDS - до 1.5 Тбит/с. Fornex - 10 Гбит/с на каждый VPS. Timeweb Cloud - интеллектуальные фильтры L3/L4/L7 по всему облаку. AdminVPS - базовая защита с возможностью апгрейда.</p>
 
-        <p>Самый широкий канал очистки у Aeza — до 2 Тбит/с грубой фильтрации и до 600 Гбит/с тонкой обработки. RUVDS держит до 1.5 Тбит/с. Fornex закладывает 10 Гбит/с на каждый VPS. Timeweb Cloud ставит интеллектуальные фильтры на уровнях L3/L4/L7 по всему облаку. AdminVPS предоставляет базовую защиту и предлагает расширенные тарифы для особо уязвимых проектов.</p>
-
-        <p>Если ваш бизнес регулярно сталкивается с ботнетами и высокоамплитудными атаками, выбирайте Aeza или RUVDS. Для среднестатистического сайта или API хватит того, что дают Fornex, Timeweb Cloud и AdminVPS.</p>
+        <p>Бизнес с регулярными атаками - Aeza или RUVDS. Среднему сайту или API - хватит того, что дают Fornex, Timeweb Cloud и AdminVPS.</p>
     </div>
 </section>
 
@@ -1056,56 +907,52 @@
 
         <div class="faq-list">
             <div class="faq-item">
-                <div class="faq-q">Где купить самый дешевый VPS в России?</div>
-                <div class="faq-a">По стоимости месячного тарифа лидирует RUVDS: 139 ₽ за машину с одним ядром, 512 МБ RAM и 10 ГБ HDD в московском ЦОД. Если хочется NVMe, бэкапы и чуть больше ресурсов — AdminVPS от 299 ₽. Промокод VPS30 снижает первый платёж на 30 %.</div>
+                <div class="faq-q">Где купить самый дешёвый VPS в России?</div>
+                <div class="faq-a">RUVDS: 139 ₽ за машину с одним ядром, 512 МБ RAM и 10 ГБ HDD в Москве. Хотите NVMe и бэкапы - AdminVPS от 299 ₽. Промокод VPS30 снижает первый платёж на 30%.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Как арендовать VPS в Европе с оплатой из России?</div>
-                <div class="faq-a">Fornex принимает карты российских банков и криптовалюту. Серверы размещены в Германии, Нидерландах, Швейцарии, США и ещё нескольких странах. AdminVPS обслуживает площадки в Финляндии, Германии, Нидерландах и Польше — рубли принимаются напрямую. У Aeza помимо Москвы есть европейские локации.</div>
+                <div class="faq-a">Fornex - карты РФ, крипта, PayPal. Серверы в Германии, Нидерландах, Швейцарии, США. AdminVPS - Финляндия, Германия, Нидерланды, Польша, рубли напрямую. Европейские локации Aeza - рубли и крипта.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">В каких городах РФ размещены серверы?</div>
-                <div class="faq-a">Москва: Aeza, RUVDS, Timeweb Cloud, REG.RU. Санкт-Петербург: Timeweb Cloud, Selectel, Beget. Новосибирск: Timeweb Cloud. Самара: REG.RU. Задержка внутри одного города — 2-5 мс, между Москвой и Петербургом — около 10-15 мс.</div>
+                <div class="faq-a">Москва: Aeza, RUVDS, Timeweb Cloud, REG.RU. Петербург: Timeweb Cloud, Selectel, Beget. Новосибирск: Timeweb Cloud. Самара: REG.RU. Задержка внутри города 2-5 мс, между Москвой и Питером 10-15 мс.</div>
             </div>
             <div class="faq-item">
-                <div class="faq-q">Какой VPS для VPN в России лучше взять?</div>
-                <div class="faq-a">Нужна KVM-виртуализация и поддержка TUN/TAP. Для VPN внутри страны подойдут Aeza и Timeweb Cloud. Для зарубежного IP выбирайте VPS вне РФ: Fornex (Нидерланды, Германия) или AdminVPS (Финляндия, Польша). Тарифа с 512 МБ RAM хватает для WireGuard на 5-10 подключений.</div>
+                <div class="faq-q">Какой VPS для VPN в апреле 2026?</div>
+                <div class="faq-a">Только зарубежный. Российские хостеры блокируют VPN по требованию РКН, законопроект «Антифрод 2.0» может это закрепить. Fornex (Швейцария, Германия), AdminVPS (Финляндия, промокод VPS30) или европейские локации Aeza. WireGuard мёртв на мобильном, VLESS Reality нестабилен - используйте VLESS+XHTTP или AmneziaWG через домашнюю оптику. Минимум 1 ГБ RAM.</div>
             </div>
             <div class="faq-item">
-                <div class="faq-q">В чём разница между VPS и VDS?</div>
-                <div class="faq-a">Ни в чём. VPS (Virtual Private Server) и VDS (Virtual Dedicated Server) — два термина для одной услуги. Оба обозначают виртуальную машину с выделенными ресурсами. Важнее разобраться в типе виртуализации: KVM даёт полную изоляцию, OpenVZ — накладывает ограничения. Все провайдеры из нашего рейтинга используют KVM.</div>
+                <div class="faq-q">VPS и VDS - одно и то же?</div>
+                <div class="faq-a">Да. Маркетинговые синонимы. Важен тип виртуализации: KVM даёт полную свободу, OpenVZ ограничивает. Все провайдеры из рейтинга на KVM.</div>
             </div>
             <div class="faq-item">
-                <div class="faq-q">Существует ли бесплатный VPS в РФ?</div>
-                <div class="faq-a">Вечного бесплатного VPS нет. Но тестовые периоды позволяют попробовать услугу без вложений: RUVDS — 3 дня, AdminVPS — 7 дней, FirstVDS — 14 дней. Timeweb Cloud начисляет бонусные рубли на аккаунт при обращении в поддержку.</div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-q">Блокируют ли VPS в России? Какие альтернативы?</div>
-                <div class="faq-a">Ряд провайдеров стал ограничивать популярные VPN-протоколы по требованиям РКН. Если это критично — заказывайте зарубежные VPS с оплатой из России: Fornex (Германия, Нидерланды, Швейцария), AdminVPS (Финляндия, Германия, Нидерланды) или европейские площадки Aeza. Оплата рублями и криптой доступна у всех трёх.</div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-q">Подойдёт ли VPS в РФ для YouTube?</div>
-                <div class="faq-a">Зависит от задачи. Для запуска ботов, парсеров или скриптов автоматизации подойдёт любой тариф от 300 ₽ с 1 ГБ RAM. Если нужен VPN для обхода ограничений YouTube — потребуется сервер за пределами РФ. Fornex и Aeza предлагают зарубежные площадки с приёмом российских карт.</div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-q">Принимают ли VPS-хостинги криптовалюту?</div>
-                <div class="faq-a">Да. RUVDS, Aeza и Fornex работают с Bitcoin, Ethereum и рядом других монет. Остальные провайдеры из рейтинга пока ограничиваются рублёвыми инструментами: карты, СБП, ЮMoney, безналичные счета.</div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-q">Бывает ли безлимитный VPS с каналом 10 Гбит/с?</div>
-                <div class="faq-a">У Aeza порт подключения достигает 10 Гбит/с. Трафик формально не лимитирован, но действует политика Fair Use: при аномально высокой нагрузке на канал провайдер вправе ограничить скорость. Для CDN, медиастриминга и массовых API-запросов это одно из лучших предложений на российском рынке.</div>
-            </div>
-            <div class="faq-item">
-                <div class="faq-q">Правда ли, что с 15 апреля нельзя будет заходить на сайты через VPN?</div>
-                <div class="faq-a">Минцифры потребовало от крупных платформ (Яндекс, ВКонтакте, Wildberries, Ozon, Avito, HeadHunter и других) блокировать доступ для пользователей с включённым VPN. Срок - 15 апреля. Пока это рекомендация, не закон. Но если платформы выполнят - при глобально включённом VPN вы не зайдёте на эти сервисы. Решение: поднимайте VPN на своём VPS с раздельным туннелированием. Российские сайты идут напрямую, заблокированные - через тоннель. Amnezia VPN и 3X-UI на VPS это позволяют настроить за 10 минут.</div>
+                <div class="faq-q">Бесплатный VPS в РФ существует?</div>
+                <div class="faq-a">Вечного - нет. Тестовые периоды: RUVDS 3 дня, AdminVPS 7 дней, FirstVDS 14 дней. Timeweb Cloud начисляет бонусы через поддержку.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">Aeza блокирует VPN на серверах?</div>
-                <div class="faq-a">Да, с декабря 2025 года Aeza начала рассылать предупреждения и блокировать серверы с VPN на российских площадках по требованию РКН. На европейских серверах Aeza ограничений нет. Если берёте Aeza для VPN - выбирайте Германию, Нидерланды, Австрию или Финляндию. Fornex и AdminVPS на зарубежных площадках VPN тоже не ограничивают.</div>
+                <div class="faq-a">На российских площадках - да, с декабря 2025 по требованию РКН. Получили списки IP из подсети 138.124/16, начали рассылать уведомления. На европейских серверах - без ограничений. Для VPN выбирайте Германию, Нидерланды, Австрию или Финляндию у Aeza. Fornex и AdminVPS VPN на зарубежных площадках тоже не трогают.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Российским хостерам запретят VPN?</div>
+                <div class="faq-a">17 апреля «Коммерсантъ» и Meduza написали про законопроект «Антифрод 2.0»: хостинг-провайдерам хотят запретить предоставлять мощности для VPN-сервисов. Aeza уже блокирует. Вывод: для VPN - только европейские площадки.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">С 15 апреля российские сайты не работают через VPN?</div>
+                <div class="faq-a">Минцифры потребовало от Яндекса, ВК, Ozon, Wildberries и 20+ платформ ограничивать VPN-трафик. Решение - раздельное туннелирование на своём VPS: российские домены напрямую, заблокированные через тоннель. Amnezia VPN и 3X-UI это умеют из коробки. Настройка 5-10 минут.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">WireGuard и VLESS заблокированы - что работает?</div>
+                <div class="faq-a">На 22 апреля 2026: WireGuard мёртв на мобильном, ТСПУ режут за миллисекунды. VLESS Reality нестабилен с февраля. Работают: VLESS+XHTTP (новый транспорт, маскируется под обычный HTTP) и AmneziaWG через домашнюю оптику (на мобильном нестабилен с 1 апреля). Настройка VLESS+XHTTP на VPS - 15-20 минут, есть гайды на Habr. Нужен 1 ГБ RAM минимум.</div>
+            </div>
+            <div class="faq-item">
+                <div class="faq-q">Принимают ли VPS-хостинги криптовалюту?</div>
+                <div class="faq-a">RUVDS, Aeza и Fornex работают с Bitcoin, Ethereum и другими монетами. Остальные - рублёвые инструменты: карты, СБП, ЮMoney, безнал для юрлиц.</div>
             </div>
             <div class="faq-item">
                 <div class="faq-q">С 1 мая введут плату за VPN-трафик?</div>
-                <div class="faq-a">Минцифры обсуждает с мобильными операторами введение доплаты за международный трафик свыше 15 ГБ в месяц. Это затронет только мобильный интернет, фиксированные провайдеры пока не в повестке. VPN через домашнюю оптику на VPS в Европе должен работать без дополнительных платежей. На мобильном - считайте трафик или подключайте VPN через Wi-Fi.</div>
+                <div class="faq-a">Минцифры обсуждает доплату за международный трафик свыше 15 ГБ на мобильных сетях. Домашняя оптика пока не в повестке. VPN через Wi-Fi на VPS в Европе должен работать без дополнительных платежей. На мобильном - считайте трафик.</div>
             </div>
         </div>
     </div>
@@ -1116,22 +963,22 @@
     <div style="max-width:600px;margin:0 auto">
         <div class="hero-badge" style="margin-bottom:1rem">🇷🇺 Рейтинг VPS Россия 2026</div>
         <h2>Запустите свой VPS за пару минут</h2>
-        <p>Выберите провайдера из рейтинга, оплатите рублями или криптой — и сервер готов. NVMe, KVM, root-доступ, защита от атак.</p>
+        <p>Выберите провайдера из рейтинга, оплатите рублями или криптой - и сервер готов. NVMe, KVM, root-доступ, защита от атак.</p>
         <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1.5rem">
-            <a href="https://aeza.net/?ref=797084" class="hero-cta" target="_blank" rel="nofollow">⭐ Aeza — от 593₽</a>
-            <a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" class="hero-cta" style="background:linear-gradient(135deg,var(--green),#00b894);color:#000" target="_blank" rel="nofollow">💰 AdminVPS — минус 30%</a>
+            <a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" class="hero-cta" style="background:linear-gradient(135deg,var(--green),#00b894);color:#000" target="_blank" rel="nofollow">💰 AdminVPS - минус 30%</a>
+            <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/in-russia/" class="hero-cta" target="_blank" rel="nofollow">🌍 Fornex - 7 локаций</a>
         </div>
         <div style="display:flex;gap:1rem;justify-content:center;flex-wrap:wrap;margin-bottom:1rem">
-            <a href="https://fornex.com/c/ftle5i/ru/virtual-private-servers/" class="hero-cta" style="background:transparent;border:2px solid var(--accent);color:var(--accent2)" target="_blank" rel="nofollow">🌍 Fornex — 7 локаций</a>
             <a href="https://timeweb.cloud/?i=138553" class="hero-cta" style="background:transparent;border:2px solid var(--accent);color:var(--accent2)" target="_blank" rel="nofollow">🏢 Timeweb Cloud</a>
+            <a href="https://aeza.net/?ref=797084" class="hero-cta" style="background:transparent;border:2px solid var(--accent);color:var(--accent2)" target="_blank" rel="nofollow">⚡ Aeza</a>
         </div>
         <p style="font-size:.8rem;color:var(--text2)">Промокод <strong style="color:var(--green)">VPS30</strong> = минус 30% на AdminVPS</p>
     </div>
 </section>
 
 <footer class="footer">
-    <p>© 2026 VPS Россия — независимый обзор хостингов для аренды виртуальных серверов</p>
-    <p style="margin-top:.5rem">Данные проверяются ежемесячно. Актуальность тарифов: апрель 2026.</p>
+    <p>© 2026 VPS Россия - независимый обзор хостингов для аренды виртуальных серверов</p>
+    <p style="margin-top:.5rem">Данные проверяются ежемесячно. Последнее обновление: 22 апреля 2026.</p>
     <p style="margin-top:.5rem;font-size:.75rem;color:#555">Материал содержит партнёрские ссылки. Мы можем получать вознаграждение от провайдеров; на итоговую стоимость для вас это не влияет.</p>
 </footer>
 
@@ -1155,8 +1002,8 @@ window.addEventListener('scroll', function() {
 }, {passive: true});
 
 function randomizeViewers() {
-    const ids = ['views-aeza','views-fornex','views-adminvps','views-timeweb'];
-    const base = [187, 124, 203, 145];
+    const ids = ['views-adminvps','views-fornex','views-timeweb','views-aeza'];
+    const base = [203, 124, 145, 187];
     ids.forEach(function(id, i) {
         const el = document.getElementById(id);
         if (el) {
@@ -1193,8 +1040,8 @@ document.querySelectorAll('a[href^="#"]').forEach(a=>{
 </script>
 <div class="sticky-bar" id="stickyBar">
     <div class="sticky-bar-text">
-        <span class="sb-full"><span class="flag-ru"></span> <strong>AdminVPS</strong> от <strong>299 ₽</strong> · промокод <strong>VPS30</strong> дает скидку 30%</span>
-        <span class="sb-short"><span class="flag-ru"></span> <strong>AdminVPS</strong> · промокод <strong>VPS30</strong></span>
+        <span class="sb-full"><span class="flag-ru"></span> <strong>AdminVPS</strong> от <strong>299 ₽</strong> · промокод <strong>VPS30</strong> = минус 30%</span>
+        <span class="sb-short"><span class="flag-ru"></span> <strong>AdminVPS</strong> · <strong>VPS30</strong></span>
     </div>
     <a href="https://adminvps.ru/vps/vps_russia.php?aff=29893" class="sticky-bar-btn" target="_blank" rel="nofollow">Скидка 30% →</a>
     <button class="sticky-bar-close" onclick="document.getElementById('stickyBar').style.display='none'" aria-label="Закрыть">✕</button>
